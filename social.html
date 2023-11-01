@@ -52,6 +52,11 @@
     .medium:hover {
       color: #000000;
     }
+    
+    .researchgate:hover {
+      color: #000000;
+    }
+    
   </style>
 
 </head>
@@ -78,13 +83,19 @@
       <div id="medium" onclick="navigate(this.id)" class="social">
         <span class="icon medium"><i class="fab fa-medium"></i></span>
       </div>
-      <!-- End twitter Icon -->
+      <!-- End medium Icon -->
 
-      <!-- Start twitter Icon -->
-      <div id="twitter" onclick="navigate(this.id)" class="social">
-        <span class="icon twitter"><i class="fab fa-twitter"></i></span>
+       <!-- Start X Icon -->
+      <div id="X" onclick="navigate(this.id)" class="social">
+        <span class="icon X"><i class="fab fa-X"></i></span>
       </div>
-      <!-- End twitter Icon -->
+      <!-- End X Icon -->
+
+      <!-- Start researchgate Icon -->
+      <div id="researchgate" onclick="navigate(this.id)" class="social">
+        <span class="icon researchgate"><i class="fab fa-researchgate"></i></span>
+      </div>
+      <!-- End researchgate Icon -->
 
     </div>
 
@@ -101,13 +112,16 @@
         }
           
         else if (id === "linkedin") {
-          window.open("https://www.linkedin.com/in/juan-pablo-reyes/", '_blank').focus(); //Add the url to your pinterest account
+          window.open("https://www.linkedin.com/in/juan-pablo-reyes/", '_blank').focus(); //Add the url to your linkedin account
         }
-        else if (id === "twitter") {
-          window.open("https://twitter.com/jpreyesochoa", '_blank').focus(); //Add the url to your pinterest account
+        else if (id === "X") {
+          window.open("https://twitter.com/jpreyesochoa", '_blank').focus(); //Add the url to your X account
         }
         else if (id === "medium") {
-          window.open("https://medium.com/@jpreyesochoa", '_blank').focus(); //Add the url to your pinterest account
+          window.open("https://medium.com/@jpreyesochoa", '_blank').focus(); //Add the url to your medium account
+        }
+        else if (id === "researchgate") {
+          window.open("https://www.researchgate.net/profile/Juan-Pablo-Reyes-Ochoa", '_blank').focus(); //Add the url to your researchgate account
         }
       }
 
